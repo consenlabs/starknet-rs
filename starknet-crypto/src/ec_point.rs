@@ -21,7 +21,7 @@ impl EcPoint {
         }
     }
 
-    fn identity() -> EcPoint {
+    pub fn identity() -> EcPoint {
         Self {
             x: FieldElement::ZERO,
             y: FieldElement::ZERO,
@@ -29,7 +29,7 @@ impl EcPoint {
         }
     }
 
-    fn double(&self) -> EcPoint {
+    pub fn double(&self) -> EcPoint {
         if self.infinity {
             return *self;
         }
@@ -98,3 +98,4 @@ impl EcPoint {
         product
     }
 }
+

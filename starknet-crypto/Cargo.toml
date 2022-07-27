@@ -54,3 +54,7 @@ harness = false
 [[bench]]
 name = "rfc6979_generate_k"
 harness = false
+
+[[bench]]
+name = "primary_compute"
+harness = false
