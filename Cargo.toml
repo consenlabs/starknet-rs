@@ -40,7 +40,7 @@ starknet-macros = { version = "0.1.0", path = "./starknet-macros" }
 
 [dev-dependencies]
 serde_json = "1.0.74"
-tokio = { version = "1.15.0", features = ["full"] }
+tokio = { version = "1.20.3", features = ["full"] }
 url = "2.2.2"
 
 [features]
