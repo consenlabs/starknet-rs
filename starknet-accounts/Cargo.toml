@@ -20,4 +20,4 @@ async-trait = "0.1.52"
 thiserror = "1.0.30"
 
 [dev-dependencies]
-tokio = { version = "1.15.0", features = ["full"] }
+tokio = { version = "1.20.4", features = ["full"] }
